@@ -1,0 +1,442 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+.flex-display{
+    display: flex;
+}
+.orange-text{
+    color: #FEA301;
+}
+.skyblue-text{
+    color: #01ACFD;
+}
+.hide{
+    display: none;
+}
+/* Header Style Start */
+.nav-section, .banner-container, .card-container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* navbar section styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 140px; */
+}
+.nav-item{
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: 60px;
+}
+.brand-name{
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.menu-items{
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-items li{
+    list-style: none;
+    margin-right: 32px;
+}
+.menu-items li a{
+    text-decoration: none;
+}
+.facilities-menu{
+    color: #05D4DF;
+}
+.admission-menu{
+    color: #5D58EF;
+}
+.nav-btn{
+    padding: 10px 60px;
+    background-color: #FEA301;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* banner section style */
+
+.banner-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    /* margin: 0px 140px; */
+}
+.banner-item{
+    max-width: 640px;
+}
+.banner-title{
+    font-size: 3.5rem;
+    line-height: 1;
+}
+.banner-description{
+    margin-bottom: 24px;
+    font-size: 1.25rem;
+}
+.banner-btn{
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.banner-img{
+    max-width: 470px;
+}
+/* Header style End */
+
+/* standard curriculum section style start */
+
+.standard-curriculum{
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curriculum-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.card-container{
+    justify-content: space-between;
+    gap: 28px;
+    text-align: center;
+}
+.kids-age1{
+    border: 1px solid #DEF5FF;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.05);
+    background-image: linear-gradient(to bottom, #DEF5FF, rgba(255, 255, 255, 0));
+    padding: 52px 40px;
+}
+.kids-age2{
+    border: 1px solid #fff1d2;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.05);
+    background-image: linear-gradient(to bottom, #FFF4DC, rgba(255, 255, 255, 0));
+    padding: 52px 40px;
+}
+.kids-age3{
+    border: 1px solid #F2E8FF;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.05);
+    background-image: linear-gradient(to bottom, #F2E8FF, rgba(255, 255, 255, 0));
+    padding: 52px 40px;
+}
+.age-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 33px;
+}
+.age-description{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.read-more1{
+    text-decoration: none;
+    color: #64C8FF;
+}
+.read-more2{
+    text-decoration: none;
+    color: #F0AA00;
+}
+.read-more3{
+    text-decoration: none;
+    color: #8700FF;
+}
+.chevron-icon{
+    text-align: center;
+    margin: 70px 0;
+    cursor: pointer;
+}
+.icon{
+    font-size: 3rem;
+    color: #FEA301;
+}
+/* standard curriculum section style end */
+
+/* our stories section style start */
+
+.our-stories{
+    background-image:url(../assets/bg.png), linear-gradient(to bottom, transparent, rgba(244, 213, 157, 1));
+}
+.stories-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "card1 card1 card2 card3"
+    "card1 card1 card4 card5"
+    ;
+}
+.stories-heading{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.title-section{
+    padding: 0 35px;
+    position: relative;
+}
+.stories-title1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.stories-description{
+    color: #666666;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.card img{
+    width: 100%;
+}
+.stories-items1{
+    grid-area: card1;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.stories-items2{
+    grid-area: card2;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.stories-items3{
+    grid-area: card3;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.stories-items4{
+    grid-area: card4;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.stories-items5{
+    grid-area: card5;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.stories-container  img{
+    border-radius: 16px 16px 0 0;
+}
+/* button style */
+.main-stories-btn{
+    position: absolute;
+}
+.stories-1-btn{
+    background-color: #3CD8E8;
+    padding: 15px 16px;
+    border-radius: 48px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    transform: translate(0%, -125%);
+}
+.stories-2-btn{
+    background-color: #95B226;
+    padding: 15px 16px;
+    border-radius: 48px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    transform: translate(0%, -110%);
+}
+.stories-3-btn{
+    background-color: #5D58F0;
+    padding: 15px 16px;
+    border-radius: 48px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;  
+    transform: translate(0%, -110%);
+}
+.view-all-btn{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+/* Our stories style End */
+
+/* Footer section style */
+.main-footer-section{
+    background-color: #01ACFD;
+    padding-bottom: 50px;
+}
+.footer-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.footer-info{
+    justify-content: space-between;
+    gap: 150px;
+    padding-top: 100px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.section-1{
+    max-width: 400px;
+}
+.section-3 img{
+    cursor: pointer;
+}
+.logo-text{
+    align-items: center;
+    max-width: 300px;
+}
+.brand-title{
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 1;
+}
+.important-note{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.about-title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;}
+.about-menu{
+    list-style: none;
+    padding-left: 0;
+}
+.about-menu li{
+    margin-bottom: 20px;
+}
+.about-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.icon-title{
+    color: white;
+    font: 1.6rem;
+    font-weight: 700;
+}
+/* responsive for mobile-device */
+@media screen and (max-width: 576px) {
+    .menu-items, .card-container{
+        flex-direction: column;
+    }
+    /* navbar-style-start */
+    .navbar{
+        border-bottom: 2px solid orange;
+        padding: 0 10px;
+    }
+    .menu, .brand-name, .nav-btn{
+        display: none;
+    }
+    .menubar-icon{
+        display: block;
+    }
+    .menubar-icon{
+        display: block;
+    }
+    .menubar-icon{
+        font-size: 2rem;
+    }
+    /* navbar-style-end */
+    
+    /* banner-style-start */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .banner-item{
+        text-align: center;
+        margin: 0 10px;
+    }
+    .card-container{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .chevron-icon{
+        text-align: center;
+    }
+    /* banner-style-end */
+    /* our stories section start */
+    .stories-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "card2 card3"
+        "card4 card5";
+        gap: 1rem;
+        margin: 0 20px;
+    }
+    .stories-items1{
+        display: none;
+    }
+    .card{
+        width: 100%;
+    }
+    /* our stories section end */
+    .footer-info{
+        flex-direction: column;
+        margin: 0 20px;
+        gap: 10px;
+    }
+    
+}
