@@ -108,7 +108,7 @@ body{
     font-weight: 700;
     cursor: pointer;
 }
-.banner-img{
+.hero-img{
     max-width: 470px;
 }
 /* Header style End */
@@ -401,8 +401,11 @@ body{
     .banner-container{
         flex-direction: column-reverse;
     }
+    .banner-img{
+        margin: 0 20px;
+    }
     .hero-img{
-        width: 100%;
+        max-width: 350px;
     }
     .banner-item{
         text-align: center;
